@@ -1,0 +1,944 @@
+{
+  "settings": {
+    "name": "SCARLET THE BOOK",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise3",
+      "styling": {
+        "primaryColor": "#920000",
+        "secondaryColor": "#760000",
+        "successColor": "#efefef",
+        "infoColor": "#222222",
+        "warningColor": "#7f4209",
+        "dangerColor": "#920000",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#2e2e2e",
+        "#080808",
+        "#232323",
+        "#222222",
+        "#920000",
+        "#760000",
+        "#e9872a"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.1",
+    "siteFonts": [],
+    "uniqCompNum": 76,
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/scarlet-icon-128x131.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "siteUrl": "undefined",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box2-v\">ABOUT SCARLET</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-1r\">OTHER BOOKS BY THE AUTHOR</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://goo.gl/forms/1Cm9auPrUGjO5neE2\" target=\"_blank\">REGISTER</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#920000!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/scarlet-logo-538x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ALEXANDER EMMANUEL</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-o"
+        },
+        {
+          "_params": {
+            "showImage": false,
+            "showTitle": false,
+            "showText": false,
+            "showButton": false,
+            "showArrow": true,
+            "imageSize": "10",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/scarlet-2000x1006.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.1"
+          },
+          "title": "&nbsp; SCARLET<br><br>",
+          "text": "Full-screen intro with image at the top. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "button": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary text-xs-center\" data-toolbar=\"-mbrBtnMove\">SNEEK PEEK</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@-blocks/components/_images/img_extHeader3_bg.jpg"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "form": {
+            "action": "donbenny@icloud.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader17",
+          "_styles": {
+            "H3": {
+              "text-align": "center",
+              "color": "#efefef"
+            }
+          },
+          "_anchor": "extHeader17-1t"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#920000",
+              "text-align": "left",
+              "font-size": "24px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "84px",
+              "color": "#080808"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "3",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-94730-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Scarlet</i></span>",
+          "text": "Scarlet, a pro-apocalyptic story set in ancient Kikiyuland of Central Kenya, reennacts the recurrent powerplay amongst principalities and the attendant consequences on mankind.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#extFeatures1-6\" data-toolbar=\"-mbrBtnMove\">SNEAK PEEK</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-v"
+        },
+        {
+          "_params": {
+            "showLogo": false,
+            "showTitle": true,
+            "showText": true,
+            "showCountdown": false,
+            "showForm": false,
+            "showArrow": false,
+            "imageSize": "10",
+            "countdown": "2019/6/22",
+            "animText1": "SIZZLING",
+            "animText2": "INTRIGUING",
+            "animText3": "INTENSE",
+            "typeSpeed": "60",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/redbg-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.2"
+          },
+          "title": "",
+          "title2": "ALL IN ONE BOOK",
+          "text": "Those who throng to watch Denka's performance during the \"One Bone Dance\" competition at the annual Ngwiko Rite of Passage Ceremony in Virgin Land, have no inkling that her lips bear the tinder that would spark off the Day of Scarlet; the day for revealing of the fate of Good and Evil.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@-blocks/components/_images/mbr_logo_sand.png"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          },
+          "form": {
+            "action": "charlespopsonjr@gmail.com",
+            "alerts": {
+              "success": "We'll Keep you Updated"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Stay Tuned to the Echo"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader15",
+          "_styles": {
+            ".display-2 I": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#efefef",
+              "text-align": "center",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "extHeader15-1y"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "countdown": "2019/6/22",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-1059078-1920x479.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#e9e9e9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#efefef",
+            "overlayOpacity": "0.8"
+          },
+          "title": "COUNTDOWN TO RELEASE OF SCARLET",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extCountdown1",
+          "_anchor": "extCountdown1-1x",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#920000",
+              "font-size": "36px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#efefef"
+          },
+          "text": "<blockquote>Another Purple Shelves Book by the Author of <b>Òmò</b> &amp; <b>Creed of Brotherhood</b></blockquote>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-z",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#faaf40",
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/redbg-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#080808",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#920000",
+            "overlayOpacity": "0.5"
+          },
+          "title": "TO JOIN THE<br>WAITING LIST",
+          "text": "Fill this form to get a 30% discount for first 200 subscribers and a free copy of Òmò or Creed of Brotherhood",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://goo.gl/forms/1Cm9auPrUGjO5neE2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">TAKE ADVANTAGE OF OUR OFFER</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-10"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "60px"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "24px",
+              "color": "#920000"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#efefef"
+          },
+          "title": "22 JUNE 2019",
+          "meta": "Release Date",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1g"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".feature-subtitle": {
+              "color": "#cccccc"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "center",
+              "color": "#8c8c8c"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "60px",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/464234-1920x1200.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#303030",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "central-image",
+              "src": "@PROJECT_PATH@/assets/images/scarlet-mockup-8-3336x4812.png",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "sun",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "#e9872a"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "baby",
+              "family": "icon54-v3",
+              "active": true,
+              "size": 0,
+              "color": "#e9872a"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "desktop",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "horse",
+              "family": "icon54",
+              "active": true,
+              "size": 0,
+              "color": "#e9872a"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "class": "mbr-iconfont-features6",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "#e9872a"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-features6",
+              "name": "linegraph",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "title": "SNIPPETS",
+          "subtitle": "Denka causes a stir at the annual Ngwiko rite of passage ceremony in Virgin Land. Those who throng the venue of the procession to watch her performance during the \"One Bone Dance\" competition, have no inkling that her lips bear the tinder that would spark off the Day of Scarlet; the day for revealing of the fate of Good and Evil.<br>",
+          "feature_title1": "Son of Moon",
+          "feature_subtitle1": "Chapter 6",
+          "feature_text1": "\"Death is a day, and she will come on a Wednesday. She will knock with sleeky fingers, and you will open your flanks to her alluring smile...\"",
+          "feature_title2": "Second Birth",
+          "feature_subtitle2": "Chapter 12",
+          "feature_text2": "\"I was first to know I would be born on this skin-roasting, moisture-draining, soul-wrenching afternoon, and to say the least, my experience at the point I fell out of Mother, was no different from a hanging flesh forgotten inside the crevice of a prostitute's two central lower teeth...\"",
+          "feature_title3": "Translation ready",
+          "feature_subtitle3": "Find a common language with anyone",
+          "feature_text3": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "feature_title4": "Horse Fall",
+          "feature_subtitle4": "Chapter 2",
+          "feature_text4": "\"On arrival at Mother's womb, I stopped the blood that came at the completion of every moon's cycle from flowing down her thighs. I began kicking the walls of her stomach and swinging along the helixes tangling little me in her womb on the second month, yet Mother thought it was diarrhoea...\"",
+          "feature_title5": "The First Sign",
+          "feature_subtitle5": "Chapter 1",
+          "feature_text5": "\"In Kwante, the way a day will end is known by the third hour into the Morning, but on this morning, the plain blue sky did not give a hint.\"",
+          "feature_title6": "Awesome parallax",
+          "feature_subtitle6": "Enjoy smooth bg sliding on scroll",
+          "feature_text6": "Donec felis leo, placerat et porttitor, fermentum ut nunc. Integer consequat pretium tempor. Fusce aliquam libero quis dui dictum.",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures1",
+          "_anchor": "extFeatures1-6"
+        },
+        {
+          "_inherit": "testimonials2",
+          "_params": {
+            "showTitle": false,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "count": "1",
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/huawei-mate-9-wallpaper-170-2000x1778.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#e9872a",
+            "overlayOpacity": "0.8"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "title": "SCARLET REVIEW BOARD",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "testimonial": [
+            {
+              "authorName": "Sunday Times",
+              "authorBio": "User",
+              "text": "<p>“Terrific soul-gripping... Scarlet tells a compelling story buried in one of Africa's timeless myth.”</p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
+          ],
+          "_name": "testimonials4",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"226\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/huawei-mate-9-wallpaper-170-2000x1778.jpg&quot;); padding-top: 20px; padding-bottom: 40px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.9; background-color:#760000;\">\n    </div>\n\n        <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n            <div class=\"container\">\n                <div class=\"row\">\n                    <div class=\"col-xs-12 text-xs-center\">\n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n\n                <div class=\"col-xs-12\">\n\n                    <div class=\"mbr-testimonial card\">\n                        <div class=\"card-block mbr-editable-content\" style=\"background-color:#000; font-size: 21px\" code-editable-id=\"158\"><p>“Terrific, soul-gripping... Scarlet tells a compelling story buried in one of Africa's timeless myth.”</p></div>\n                        <div class=\"mbr-author card-footer\">\n                          \n                            <div class=\"mbr-author-name mbr-editable-content\" code-editable-id=\"159\"><span style=\"font-weight: normal;\">Sunday Times</span></div>\n                            \n                        </div>\n                    </div>\n\n                </div>\n\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".card-block P {\n  color: #ffffff;\n}\n.card-footer > div {\n  font-size: 22px;\n  color: #fff;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "testimonials4-1e",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "31",
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/brick-1200x800.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.8"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/framed-author-1400x1687.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "<i>Alexander Emmanuel Ochogwu</i><br><i>loves to tread uncharted paths through his writings. He is the author of&nbsp;Òmò, and The Diary of a Boy Soldier series. Alexander lives in Abuja, Nigeria.</i>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "msg-box5-1z"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-94730-2000x1500.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "SCARLET IS COMING THIS JUNE",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-q",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "color": "#920000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": "31",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/cod-omo-1400x1171.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Other Books by the Author</i></span>",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#msg-box5-1u\" data-toolbar=\"-mbrBtnMove\">CREED OF BROTHERHOOD</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#msg-box5-1u\" data-toolbar=\"-mbrBtnMove\">ÒMÒ</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1u",
+          "_styles": {
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "36px",
+              "text-align": "right"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/pexels-photo-952670-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#080808",
+            "overlayOpacity": "0.9"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/scarlet-logo-457x128.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont-company-contacts3",
+              "linkInNewWindow": false,
+              "name": "pencil",
+              "family": "et-line",
+              "active": true,
+              "size": 0
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span style=\"font-style: normal;\"><strong>CONTACT ME</strong></span></a>",
+          "title1": "Categories",
+          "text1": "",
+          "text2": "+234 (70) 5854 7018",
+          "text3": "Alexander Emmanuel Ochogwu",
+          "text4": "<a href=\"mailto:support@mobirise.com\" class=\"text-success\">purpleshelves@gmail.com</a>",
+          "text5": "<li><a class=\"text-white\" href=\"index.html#msg-box5-1r\">Other Books by the Author</a></li><li><a class=\"text-white\" href=\"index.html#extHeader15-5\">Details of Book Release</a></li><li><a class=\"text-white\" href=\"https://goo.gl/forms/1Cm9auPrUGjO5neE2\" target=\"_blank\">Join Our Waiting List</a></li><li><a class=\"text-white\" href=\"index.html#social-buttons1-q\">Share Page</a></li><li><a class=\"text-white\" href=\"index.html#testimonials4-1e\">Book Review</a></li>",
+          "text6": "<strong>How to Pre-order</strong><br>Pre-order<br>STARTING SOON<br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "charlespopsonjr@gmail.com",
+            "alerts": {
+              "success": "Thank you for sending your thought"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Short Message for the Author*"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-1p",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "SPAN": {
+              "font-size": "13px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef",
+              "text-align": "right"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "16px",
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#000000"
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Crafthought Designs</i></span>",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1h"
+        }
+      ]
+    }
+  }
+}
